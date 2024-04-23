@@ -1,0 +1,17 @@
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}

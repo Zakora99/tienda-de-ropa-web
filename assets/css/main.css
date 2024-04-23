@@ -1,0 +1,77 @@
+.banner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+}
+
+#hero {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(177, 27, 27);
+    color: #fff;
+}
+
+.img-box-card {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.img-card {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    object-fit: scale-down;
+    transition: all 0.5s;
+}
+
+.card:hover .img-card {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.precio {
+    padding: 5px 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-self: center;
+}
+
+.price-ant {
+    text-decoration: line-through;
+    width: 40%;
+    font-size: 15px;
+    left: 30px;
+}
+
+.price {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width:700px) {
+    .banner img {
+        width: 100%;
+        height: auto;
+        -o-object-fit: cover;
+    }
+
+
+    .banner {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+}
