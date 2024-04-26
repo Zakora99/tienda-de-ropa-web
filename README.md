@@ -51,7 +51,7 @@ Referencias	13
 
 
 
-Resumen
+#Resumen
 El Modelo-Vista-Controlador (MVC) es un patrón arquitectónico ampliamente utilizado en el desarrollo de software para crear aplicaciones robustas y mantenibles. Este modelo organiza la aplicación en tres componentes principales: el Modelo, la Vista y el Controlador. El Modelo representa la lógica de negocio y la manipulación de datos, la Vista se encarga de la presentación de la información al usuario final, y el Controlador actúa como intermediario, gestionando las solicitudes del usuario y actualizando el Modelo y la Vista según sea necesario.
 
 La clave del éxito del MVC radica en la clara separación de responsabilidades entre estos tres componentes, lo que facilita la modularidad del código, la reutilización de componentes y la realización de pruebas unitarias efectivas. Esta separación también promueve la escalabilidad y la mantenibilidad de las aplicaciones a medida que crecen en complejidad y tamaño.
