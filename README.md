@@ -161,6 +161,20 @@ En conclusión, el Modelo-Vista-Controlador (MVC) es un patrón arquitectónico 
 La modularidad y la reutilización de código facilitadas por el MVC permiten un desarrollo más eficiente y escalable, mientras que la facilidad de mantenimiento resultante de esta separación de responsabilidades reduce la complejidad y el riesgo de errores en el código. Además, la capacidad de realizar pruebas unitarias y de integración de manera efectiva contribuye a mejorar la calidad y la confiabilidad del software desarrollado con este patrón.
 La flexibilidad y extensibilidad inherentes al MVC permiten adaptarse fácilmente a cambios en los requisitos del negocio y en las tecnologías subyacentes, lo que garantiza que las aplicaciones desarrolladas con este patrón puedan evolucionar y crecer con el tiempo.
 
+Pasos para poder descargar un archivo de GitHub 
+
+
+1.	Descarga e instala XAMPP: Antes de comenzar, asegúrate de tener XAMPP instalado en tu computadora. Puedes descargarlo desde su sitio web oficial y seguir las instrucciones de instalación para tu sistema operativo.
+2.	Encuentra el repositorio en GitHub: Ve a GitHub y encuentra el repositorio que contiene el archivo que deseas descargar.
+3.	Navega al archivo: Dentro del repositorio, navega a la ubicación del archivo que deseas descargar.
+4.	Haz clic en el archivo y selecciona "Raw": Una vez que hayas localizado el archivo, haz clic en él para abrirlo en GitHub. En la parte superior derecha del archivo, encontrarás un botón que dice "Raw". Haz clic derecho sobre él y selecciona "Guardar enlace como..." (o similar, dependiendo de tu navegador).
+5.	Selecciona la ubicación y nombre del archivo: Elige la ubicación donde deseas guardar el archivo y asigna un nombre si lo deseas. Luego, haz clic en "Guardar" para descargar el archivo en tu computadora.
+6.	Organiza los archivos en XAMPP: Una vez que hayas descargado el archivo, asegúrate de organizarlo en tu instalación de XAMPP de acuerdo con la estructura de carpetas del repositorio en GitHub. Esto puede implicar colocar archivos en el directorio correcto, como htdocs para archivos web.
+7.	Importación de la base de datos: En la carpeta con el nombre Modelo se encuentra la base de datos , después dirígete a xampp y das clic en  MySQL  e importas las tablas de la base de datos al MySQL para que se establezca una conexión correcta con el servidor.
+8.	Abrimos la ruta de nuestro servidor: abrimos el navegador y colocamos la dirección  local de la ubicación de nuestra página web en donde podamos establecer la conexión con nuestro servidor y visualizar la página en línea.
+
+
+
 Referencias
 MVC - Glosario de MDN Web Docs: Definiciones de términos relacionados con la Web. (s/f). MDN Web Docs. Recuperado el 21 de marzo de 2024, de https://developer.mozilla.org/es/docs/Glossary/MVC
 
